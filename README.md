@@ -1,3 +1,3 @@
 # lunbotu
 Carousel figure
-[demo](https://Iknowyouwill.github.io/lunbotu/lunbotu.html)
+[demo](https://iknowyouwill.github.io/lunbotu/lunbotu.html)
