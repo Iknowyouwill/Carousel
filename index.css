@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.items {
+    height: 100%;
+    float: left;
+}
+
+.items ul {
+    position: absolute;
+    z-index: 1;
+    width: 1000px;
+    height: 200px;
+    left: -200px;
+}
+
+.change {
+    width: 120px;
+    height: 20px;
+    float: right;
+    position: absolute;
+    right: 40px;
+    bottom: 5px;
+    z-index: 5;
+}
+
+.change ul {
+    margin-left: 10px;
+}
+
+.change ul li {
+    width: 20px;
+}
+
+.change .active {
+    background: lightpink;
+    color: lightpink;
+    width: 15px;
+}
+
+.change ul li a {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 5px;
+    line-height: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#pre,
+#next {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    font-size: 5px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#pre {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.change ul li a.hidden {
+    background: #fff;
+    color: #000;
+}
